@@ -292,7 +292,7 @@ ul
     gap:30px;
 }
 .list-features .item{
-    width: 270px;
+    flex-basis: calc((100%-90px)/5);
 }
 .features-text{
     line-height: 1.71em;
@@ -494,7 +494,7 @@ ul
 .product-card .item{
     background: var(--background-color);
     border: 1px solid #EEEEEE;
-    width: 370px;
+    flex-basis: calc((100%-60px)/4);
 }
 .product-card .item:hover,
 .product-card .item:focus{
