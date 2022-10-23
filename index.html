@@ -55,7 +55,7 @@
       <section class="hero-section">
         <div class="container"> 
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button"><span class="button-text">Замовити послугу<span></button></div>
+          <button class="hero-button" data-modal-open type="button"><span class="button-text">Замовити послугу<span></button></div>
         </div>
       </section>
       <section class="features-section">
@@ -110,17 +110,27 @@
         <div class="container">
             <h2 class="title developmen-title">Чим ми займаємося</h2>
           <ul class="list list-developmen">
-            <li class="item"><img src="./images/1.jpg" alt="розробка програми" width="370" height="294" /></li>
-            <li class="item">
-              <img
+            <li class="item developmen-item"><img src="./images/1.jpg" alt="розробка програми" width="370" height="294" />
+            <div class="developmen-div">
+                <h3 class="title developmen-title">Десктопні додатки</h3>
+              </div>
+            </li>
+            <li class="item developmen-item">
+              <img 
                 src="./images/2.jpg"
                 alt="розробка дизайну для мобільних програм"
                 width="370"
                 height="294"
               />
+              <div class="developmen-div">
+                <h3 class="title developmen-title">Мобільні додатки</h3>
+              </div>
             </li>
-            <li class="item">
+            <li class="item developmen-item">
               <img src="./images/3.jpg" alt="вибір кольору до дизайну" width="370" height="294" />
+              <div class="developmen-div">
+                <h3 class="title developmen-title">Дизайнерські рішення</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -398,6 +408,20 @@
           </ul>
         </div>
       </div>
+      <button type="button" data-modal-open>sadfhjsdahfjsd</button>
     </footer>
+
+    <div class="backdoor is-hidden" data-modal>
+      <div class="modal">
+        <buttom class="modal-buttom" type="buttom" data-modal-close>
+          <svg class="close-icon" width="11px" height="11px">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </buttom>
+      </div>
+    </div>  
+
+    <script src="./js/modal.js"></script>
+
   </body>
 </html>
