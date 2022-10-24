@@ -243,8 +243,6 @@ ul
 .list.list-contact{
     gap: 50px;
 }
-
-
 /* hero section */
 .hero-section{
     background-image: url(../images/hero-image.jpg);
@@ -257,7 +255,6 @@ ul
 
     background-color: #2F303A;
 }
-
 .hero-title{
     margin-bottom: 30px;
 
@@ -304,7 +301,6 @@ ul
     display: block;
     padding: 10px 32px;
 }
-
 /* features section */
 .features-section{
     padding-top: 94px;
@@ -345,7 +341,6 @@ ul
 .features-text{
     line-height: 1.71em;
 }
-
 /* development-section */
 .development-section{
     padding-top: 94px;
@@ -545,7 +540,6 @@ ul
     background-color: var(--company-color);
 
 }
-
 /* product section */
 .product-section{
     padding-top: 94px;
@@ -640,7 +634,6 @@ ul
     line-height: 1.8;
     letter-spacing: 0.03em;
 }
-
 /* Modal */
 .backdoor{
     position: fixed;
